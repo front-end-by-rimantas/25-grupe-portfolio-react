@@ -1,42 +1,20 @@
-![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square) 
+# React
 
-![Security Status](https://img.shields.io/security-headers?label=Security&url=https%3A%2F%2Fgithub.com&style=flat-square) 
+25 group website project
+This project is for educational purposes only.
+Site published at https://front-end-by-rimantas.github.io/25-grupe-portfolio-react/
 
-![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg) 
+Design: [React](https://react.theme-land.com)
 
-![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)  
+# Project features
 
+- Scroll event
+- Carousel
+- CSS animation
+- Font-awesome icons
+- Multipage
+- JS import-export
 
+## Authors
 
-_25 group website project_ 
-
-
-This project is for educational purposes only.  
-
-
-
-Site published at https://front-end-by-rimantas.github.io/25-grupe-portfolio-react/ 
-
-
-
-Design: [React] ( https://react.theme-land.com) 
-
-
-
-# Project features 
-
-
-
-- HTML 
-
-- CSS 
-
-- JavaScript 
-
-
-
-## Authors 
-
-
-
-Vita, Rūta, Milena Marija, Linas, Audrius, Juozapas 
+[Vita](https://github.com/cecelia-tech), [Rūta](https://github.com/RutaMat), [Milena Marija](https://github.com/MilenaMarija), [Linas](https://github.com/Linussupremus), [Audrius](https://github.com/AudriusKru), [Juozapas](https://github.com/Juzer-name)
