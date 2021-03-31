@@ -1,11 +1,35 @@
 // IMPORT
-// header
-// services
-// achievements
-// footer
+/* HEADER */
+/* HERO */
+/* ACHIEVEMENTS */
+/* SERVICES */
+/* DEVICE MANAGER */
+/* COMMUNICATION */
+/* sAps WORKS */
+/* ITERFACE START */
+/* OUR REVIEW */
+/* PRICE LIST */
+/* FAQ */
+/* TEAM EXPERTS */
+/* AVAILABLE START */
+/* SUBSCRIBE */
+/* STAY STAR */
+/* FOOTER */
 
 // FUNKCIJU PANAUDOJIMAS
-// header
-// services
-// achievements
-// footer
+/* HEADER */
+/* HERO */
+/* ACHIEVEMENTS */
+/* SERVICES */
+/* DEVICE MANAGER */
+/* COMMUNICATION */
+/* sAps WORKS */
+/* ITERFACE START */
+/* OUR REVIEW */
+/* PRICE LIST */
+/* FAQ */
+/* TEAM EXPERTS */
+/* AVAILABLE START */
+/* SUBSCRIBE */
+/* STAY STAR */
+/* FOOTER */
