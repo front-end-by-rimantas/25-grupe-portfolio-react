@@ -13,7 +13,10 @@
 
 /* TEXT STYLES */
 
-.center {
+.text-grey.center {
+  text-align: center;
+}
+.text-white.center {
   text-align: center;
 }
 .text-grey.left {
@@ -93,5 +96,21 @@
   font-size: 20px;
   line-height: 28px;
   color: var(--colour-violet-light);
+  font-weight: 600;
+}
+.faq {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.footer-title {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 22px;
   font-weight: 600;
 }
