@@ -92,7 +92,7 @@
 .text-violet {
   display: inline-block;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   line-height: 28px;
   color: var(--colour-violet-light);
