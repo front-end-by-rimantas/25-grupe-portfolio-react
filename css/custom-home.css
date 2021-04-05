@@ -12,6 +12,49 @@
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* HEADER */
+nav > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  float: right;
+  line-height: 20px;
+  margin-right: 40px;
+}
+.achievements {
+  font-weight: 600;
+  text-align: center;
+}
+.rising-number {
+  font-size: 40px;
+  color: var(--colour-violet);
+  font-weight: bold;
+}
+.services {
+  text-align: center;
+}
+.services .main-title-black {
+  line-height: 60px;
+  text-align: center;
+}
+.services .rounded-title {
+  margin-bottom: 15px;
+}
+.services-icon {
+  width: 50px;
+}
+.service-option {
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 50px 50px 40px 50px;
+  text-align: center;
+}
+.service-option > .services-icon,
+p {
+  margin-bottom: 15px;
+}
+.footer-title {
+  text-align: center;
+}
 /* HERO */
 /* ACHIEVEMENTS */
 /* SERVICES */
