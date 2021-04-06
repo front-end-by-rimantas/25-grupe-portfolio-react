@@ -16,6 +16,33 @@
 /* ACHIEVEMENTS */
 /* SERVICES */
 /* DEVICE MANAGER */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.grid-container > div {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subtitle {
+    text-transform: capitalize;
+
+}
+.fa {
+    display: inline-block;
+    font-size: 25px;
+    color: #7c4fe0;
+    background-color: #fff;
+    border: 1px solid #cccc;
+    padding: 15px;
+    border-radius: 3px;
+}
+
 /* COMMUNICATION */
 /* sAps WORKS */
 /* ITERFACE START */
