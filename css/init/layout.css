@@ -398,6 +398,15 @@
     margin-left: calc(50% - 570px);
     margin-right: calc(50% - 570px);
   }
+  .container-client {
+    float: right;
+  }
+
+  .container > text {
+    float: right;
+
+  }
+
   .row > .col-xl-1 {
     width: var(--col1);
   }
