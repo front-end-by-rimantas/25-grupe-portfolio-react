@@ -114,3 +114,10 @@
   line-height: 22px;
   font-weight: 600;
 }
+.subtitle {
+  display: block;
+  width: 100%;
+  font-size: 36px;
+  line-height: 40px;
+  color: #222;
+}

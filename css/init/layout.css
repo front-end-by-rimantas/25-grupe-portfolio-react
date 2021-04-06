@@ -47,6 +47,7 @@
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
 }
+
 .row > .col-1 {
   width: var(--col1);
 }
