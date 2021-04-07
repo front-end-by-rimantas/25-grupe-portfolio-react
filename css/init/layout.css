@@ -47,7 +47,15 @@
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
 }
-
+.width100{
+  width: 100%;
+}
+#right{
+  float: right;
+}
+p > i .fa-check{
+  padding: 0;
+}
 .row > .col-1 {
   width: var(--col1);
 }
@@ -398,14 +406,7 @@
     margin-left: calc(50% - 570px);
     margin-right: calc(50% - 570px);
   }
-  .container-client {
-    float: right;
-  }
 
-  .container > text {
-    float: right;
-
-  }
 
   .row > .col-xl-1 {
     width: var(--col1);

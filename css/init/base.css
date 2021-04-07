@@ -139,3 +139,7 @@
   display: inline-block;
   border: none;
 }
+i.fa.fa-check {
+  background-color: aqua;
+  background-position: top;
+}
