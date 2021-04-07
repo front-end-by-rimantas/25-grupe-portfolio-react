@@ -9,9 +9,18 @@
 @import "./components/button.css";
 @import "./components/footer.css";
 @import "./components/header.css";
+@import "./components/services.css";
 
 /* CUSTOM STILIUS SEKCIJOMS */
 /* HEADER */
+.container.header {
+  margin: 0;
+  padding: 0;
+}
+.container.header > .row {
+  margin: 0;
+  padding: 0;
+}
 nav > a {
   text-decoration: none;
   font-size: 14px;
@@ -35,55 +44,6 @@ nav > a {
 }
 /* SERVICES */
 
-.services {
-  text-align: center;
-}
-.services .rounded-title {
-  margin-bottom: 15px;
-}
-.services .fa {
-  line-height: 20px;
-  font-size: 18px;
-  margin-right: 5px;
-}
-.services .title {
-  line-height: 50px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 30px;
-}
-.title::after {
-  position: absolute;
-  content: " ";
-  width: 70px;
-  height: 2px;
-  background-color: var(--colour-violet);
-  bottom: -15px;
-  left: 50%;
-  transform: translate(-50%);
-}
-
-.services-icon {
-  width: 50px;
-}
-.service-option {
-  border-radius: 30px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  padding: 50px 50px 40px 50px;
-  text-align: center;
-  margin-top: 40px;
-}
-.service-option:hover {
-  box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-.service-option > .services-icon,
-p {
-  margin-bottom: 15px;
-}
-.footer-title {
-  text-align: center;
-}
 /* DEVICE MANAGER */
 /* COMMUNICATION */
 /* sAps WORKS */
