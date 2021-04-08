@@ -21,7 +21,46 @@
     display: inline-block;
     width: 100%;
 }
-
+.width100{
+    width: 100%;
+  }
+  .right{
+    float: right;
+  }
+  p > i .fa-check{
+    padding: 0;
+  
+   
+  }
+  .text-1 {
+     display: flex; 
+     gap: 15px;
+  }
+  .subtitle {
+    display: block;
+    justify-content:space-between;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    color: #222;
+  }
+  .fa {
+    display: inline-block;
+    font-size: 25px;
+    color: #7c4fe0;
+    background-color: #fff;
+    border: 1px solid #cccc;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  .fa-check {
+    display: inline-block;
+    border: none;
+  }
 
 /* sAps WORKS */
 /* ITERFACE START */

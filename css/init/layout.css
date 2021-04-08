@@ -47,15 +47,7 @@
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
 }
-.width100{
-  width: 100%;
-}
-#right{
-  float: right;
-}
-p > i .fa-check{
-  padding: 0;
-}
+
 .row > .col-1 {
   width: var(--col1);
 }
