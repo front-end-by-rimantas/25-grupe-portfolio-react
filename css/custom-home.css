@@ -47,6 +47,62 @@ nav > a {
 /* DEVICE MANAGER */
 /* COMMUNICATION */
 /* sAps WORKS */
+.app-works {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.app-works .main-title-white {
+  text-align: center;
+  font-size: 25px;
+}
+@media (min-width: 575px) {
+  .app-works .main-title-white {
+    font-size: 30px;
+  }
+}
+@media (min-width: 767px) {
+  .app-works .main-title-white {
+    font-size: 35px;
+  }
+  .app-works-block .footer-title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 991px) {
+  .app-works .main-title-white {
+    font-size: 40px;
+  }
+}
+.app-works > .title-section > p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.app-works-block > p:last-of-type {
+  font-size: 14px;
+}
+
+.app-works-block {
+  width: 100%;
+  display: inline-block;
+  padding: 20px;
+}
+.app-works-block > img {
+  display: inline-block;
+  width: 65px;
+  margin-bottom: 30px;
+}
+.app-works-block > p {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+}
+.footer-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
 /* ITERFACE START */
 /* OUR REVIEW */
 /* PRICE LIST */
