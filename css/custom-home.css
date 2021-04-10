@@ -108,7 +108,12 @@ nav > a {
     font-weight: 100;
     top: 50%;
     right: -30px;
+    /* margin: 0 15px 0 30px; */
+    transition: all 0.85ms;
   }
+}
+.app-works-section > .app-works-block:hover > .footer-title-arrow::after {
+  right: -40px;
 }
 @media (min-width: 991px) {
   .app-works .main-title-white {
