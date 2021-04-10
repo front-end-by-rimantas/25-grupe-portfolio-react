@@ -68,6 +68,14 @@ nav > a {
   .app-works-block .footer-title {
     font-size: 20px;
   }
+  .app-works-block > .footer-title-arrow::after {
+    content: ">";
+    position: absolute;
+    font-size: 80px;
+    font-weight: 100;
+    top: 50%;
+    right: -40px;
+  }
 }
 @media (min-width: 991px) {
   .app-works .main-title-white {
@@ -87,6 +95,7 @@ nav > a {
   width: 100%;
   display: inline-block;
   padding: 20px;
+  position: relative;
 }
 .app-works-block > img {
   display: inline-block;
@@ -98,11 +107,12 @@ nav > a {
   width: 100%;
   color: #fff;
 }
-.footer-title {
+.app-works-block > .footer-title {
   text-align: center;
   text-transform: capitalize;
   font-size: 18px;
 }
+
 /* ITERFACE START */
 /* OUR REVIEW */
 /* PRICE LIST */
