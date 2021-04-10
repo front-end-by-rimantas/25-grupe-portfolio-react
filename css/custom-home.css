@@ -31,7 +31,7 @@
     text-transform: capitalize;
     
 }
-.fa {
+.item-1 > .fa {
     display: inline-block;
     width: 55px;
     font-size: 25px;
@@ -42,7 +42,10 @@
     border-radius: 3px;
     box-shadow: 0 2px 3px #0001;
 }
-
+.grid-container > .Telefonas {
+    width: 80%;
+    float: right;
+}
 /* COMMUNICATION */
 /* sAps WORKS */
 /* ITERFACE START */
