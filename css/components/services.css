@@ -1,0 +1,51 @@
+.services {
+  text-align: center;
+}
+.services .rounded-title {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.services .fa {
+  line-height: 20px;
+  font-size: 18px;
+  margin-right: 5px;
+}
+.services .title {
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.services .title::after {
+  position: absolute;
+  content: " ";
+  width: 70px;
+  height: 2px;
+  background-color: var(--colour-violet);
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.services-icon {
+  width: 50px;
+}
+.service-option {
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  padding: 50px 50px 40px 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+.service-option:hover {
+  box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.1);
+}
+.service-option > .services-icon,
+p {
+  margin-bottom: 15px;
+}
+.footer-title {
+  text-align: center;
+  text-transform: capitalize;
+}
