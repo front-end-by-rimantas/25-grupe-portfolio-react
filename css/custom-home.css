@@ -23,18 +23,32 @@
 }
 .width100{
     width: 100%;
+    padding-top: 50px;
   }
   .right{
     float: right;
   }
   p > i .fa-check{
     padding: 0;
-  
+   
    
   }
+  .text {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color:  --colour-grey;
+    position: relative;
+    
+  }
+
   .text-1 {
      display: flex; 
-     gap: 15px;
+     gap: 1px;
+     padding-bottom: 2px;
+     padding-top: 5px;
+     
+     
   }
   .subtitle {
     display: block;
@@ -47,6 +61,13 @@
     line-height: 52px;
     text-align: left;
     color: #222;
+    list-style: none;
+    padding-bottom: 25px;
+    
+  }
+  .textrow {
+    display: flex;
+    padding-bottom: 25px;
   }
   .fa {
     display: inline-block;
@@ -57,9 +78,15 @@
     padding: 15px;
     border-radius: 3px;
   }
+  .icon-1 {
+    display: flex;
+    gap: 15px;
+    
+  }
   .fa-check {
     display: inline-block;
     border: none;
+    font-style: italic;
   }
 
 /* sAps WORKS */

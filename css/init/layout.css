@@ -43,7 +43,7 @@
   margin: 10px 0;
 }
 .row > [class*='col-'] {
-  float: left;
+  float: right;
   margin-left: var(--half-gap);
   margin-right: var(--half-gap);
 }
