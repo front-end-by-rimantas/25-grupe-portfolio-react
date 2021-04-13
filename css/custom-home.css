@@ -76,7 +76,163 @@ nav > a {
     float: right;
 }
 /* COMMUNICATION */
+.container-communication  {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+.container-communication >.row >[class*='col-'] {
+  float: right;
+}
+
+.width100{
+    width: 100%;
+    padding-top: 50px;
+  }
+  .right{
+    float: right;
+  }
+  p > i .fa-check{
+    padding: 0;
+   
+   
+  }
+  .text {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    color:  --colour-grey;
+    position: relative;
+    
+  }
+
+  .text-1 {
+     display: flex; 
+     gap: 1px;
+     padding-bottom: 2px;
+     padding-top: 5px;
+     
+     
+  }
+  .subtitle {
+    display: block;
+    justify-content:space-between;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    color: #222;
+    list-style: none;
+    padding-bottom: 25px;
+    
+  }
+  .textrow {
+    display: flex;
+    padding-bottom: 25px;
+  }
+  .fa {
+    display: inline-block;
+    font-size: 25px;
+    color: #7c4fe0;
+    background-color: #fff;
+    border: 1px solid #cccc;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  .icon-1 {
+    display: flex;
+    gap: 15px;
+    
+  }
+  .fa-check {
+    display: inline-block;
+    border: none;
+    font-style: italic;
+  }
+
 /* sAps WORKS */
+.app-works {
+  display: inline-block;
+  width: 100%;
+}
+.app-works .main-title-white {
+  text-align: center;
+  font-size: 25px;
+}
+.app-works-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: end;
+}
+.app-works-block {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.app-works-block > img {
+  width: 65px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-works-block > p {
+  color: #fff;
+}
+.app-works-block > .footer-title {
+  font-size: 18px;
+}
+.app-works > .title-section > p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.app-works-block > p:last-of-type {
+  font-size: 14px;
+}
+@media (min-width: 575px) {
+  .app-works .main-title-white {
+    font-size: 30px;
+  }
+}
+@media (min-width: 767px) {
+  .app-works .main-title-white {
+    font-size: 35px;
+  }
+  .app-works .app-works-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .app-works-block .footer-title {
+    font-size: 20px;
+  }
+  .app-works-block > .footer-title-arrow::after {
+    content: " \f054";
+    position: absolute;
+    font-size: 50px;
+    font-weight: 400;
+    top: 50%;
+    right: -30px;
+    font-family: FontAwesome !important;
+    /* margin: 0 15px 0 30px; */
+    transition: all 0.85ms;
+  }
+}
+.fa {
+  font-weight: 200;
+}
+.app-works-section > .app-works-block:hover > .footer-title-arrow::after {
+  right: -40px;
+}
+@media (min-width: 991px) {
+  .app-works .main-title-white {
+    font-size: 40px;
+  }
+}
+
 /* ITERFACE START */
 /* OUR REVIEW */
 /* PRICE LIST */
