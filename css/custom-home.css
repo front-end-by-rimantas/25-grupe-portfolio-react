@@ -76,19 +76,23 @@ nav > a {
     float: right;
 }
 /* COMMUNICATION */
-.container-communication  {
+.container communication  {
     display: inline-block;
     width: 100%;
     padding: 5px;
     margin: 10px 0;
   }
-.container-communication >.row >[class*='col-'] {
+div.col-12.col-lg-6.right {
   float: right;
 }
+   
 
 .width100{
     width: 100%;
-    padding-top: 50px;
+    padding-top: 0px;
+    padding-left: 15px;
+    
+    
   }
   .right{
     float: right;
@@ -98,12 +102,12 @@ nav > a {
    
    
   }
-  .text {
+  .textCommunication {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
-    color:  --colour-grey;
     position: relative;
+    padding: 15px 15px 15px 0;
     
   }
 
@@ -112,7 +116,6 @@ nav > a {
      gap: 1px;
      padding-bottom: 2px;
      padding-top: 5px;
-     
      
   }
   .subtitle {
@@ -128,13 +131,16 @@ nav > a {
     color: #222;
     list-style: none;
     padding-bottom: 25px;
+    padding-left: 15px;
     
   }
   .textrow {
     display: flex;
     padding-bottom: 25px;
+    padding-left: 15px;
   }
-  .fa {
+
+   .communication .fa {
     display: inline-block;
     font-size: 25px;
     color: #7c4fe0;
@@ -142,17 +148,18 @@ nav > a {
     border: 1px solid #cccc;
     padding: 15px;
     border-radius: 3px;
+
   }
   .icon-1 {
     display: flex;
     gap: 15px;
     
   }
-  .fa-check {
+ .communication .fa-check {
     display: inline-block;
     border: none;
     font-style: italic;
-  }
+ }
 
 /* sAps WORKS */
 .app-works {
