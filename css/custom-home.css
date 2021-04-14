@@ -243,6 +243,25 @@ div.col-12.col-lg-6.right {
 /* ITERFACE START */
 /* OUR REVIEW */
 /* PRICE LIST */
+.pricelist {
+  
+  text-align: center;
+}
+.pricelist-center .title-unlock {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+h2.title-unlock ::after{
+  position: absolute;
+  content: " ";
+  width: 70px;
+  height: 2px;
+  background-color: var(--colour-violet);
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+}
 /* FAQ */
 /* TEAM EXPERTS */
 /* AVAILABLE START */
