@@ -71,8 +71,8 @@ nav > a {
     border-radius: 3px;
     box-shadow: 0 2px 3px #0001;
 }
-.grid-container > .telefonas {
-    width: 80%;
+.telefonas {
+    width: 90%;
     float: right;
 }
 /* COMMUNICATION */
