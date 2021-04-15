@@ -32,8 +32,8 @@ nav > a {
 
 /* HERO */
 .bg-img-hero {
-  background-image: url(../img/welcome-bg.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/welcome-bg.jpg);
+  
 }
 .hero-page > .text-white {
   color: #fff;
