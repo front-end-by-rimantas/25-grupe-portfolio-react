@@ -31,6 +31,30 @@ nav > a {
 }
 
 /* HERO */
+.bg-img-hero {
+  background-image: url(../img/welcome-bg.jpg);
+  background-repeat: no-repeat;
+}
+.hero-page > .text-white {
+  color: #fff;
+  float: left;
+}
+
+.white-icon {
+  width: 25%;
+}
+
+.shape {
+  position: absolute;
+}
+.hero-phone {
+  max-width: 300px;
+}
+.hero-phone > .telefonas {
+  width: 90%;
+  float: right;
+}
+
 /* ACHIEVEMENTS */
 .achievements {
   font-weight: 600;
