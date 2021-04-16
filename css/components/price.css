@@ -1,0 +1,39 @@
+.price-item {
+    display: block;
+    padding: 80px 50px;
+    background-color: yellow;
+    text-align: center;
+    border-radius:20px ;
+    box-shadow: 0 0.313rem 0.875rem rgb(45 49 54 / 9%);
+      
+       
+       
+}
+
+.price-list-start {
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: px;
+}
+.price-item > .pricelist-img {
+    position: relative;
+    max-width: 100%;
+    outline: 1px solid;
+    min-height: 64px;
+    max-height: 80px;
+
+
+    
+
+
+}
+ .price-text {
+    display: grid;
+      
+    grid-row-gap: 10px;
+
+    padding: 1px;
+}
+
