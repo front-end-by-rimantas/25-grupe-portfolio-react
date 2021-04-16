@@ -35,7 +35,7 @@ nav > a {
   background: url(../img/welcome-bg.jpg);
   
 }
-.hero-page > .text-white {
+.hero-page > .text-wht {
   color: #fff;
   float: left;
 }
@@ -43,10 +43,18 @@ nav > a {
 .white-icon {
   width: 25%;
 }
-
-.shape {
-  position: absolute;
+.hero-page > .subtitle {
+  text-transform: none;
+  padding: 0 0 25px 0;
 }
+.hero-span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+
 .hero-phone {
   max-width: 300px;
 }
@@ -54,6 +62,8 @@ nav > a {
   width: 90%;
   float: right;
 }
+
+
 
 /* ACHIEVEMENTS */
 .achievements {
