@@ -35,17 +35,24 @@ nav > a {
   background: url(../img/welcome-bg.jpg);
   
 }
+.hero-page {
+  margin: 150px 20px 250px 90px ;
+}
 .hero-page > .text-wht {
   color: #fff;
   float: left;
 }
-
+.hero-page > .paragraph {
+  margin: 25px 0 0 0;
+}
 .white-icon {
   width: 25%;
+  margin: 25px 0 0 0;
 }
 .hero-page > .subtitle {
   text-transform: none;
   padding: 0 0 25px 0;
+  font-size: 4em;
 }
 .hero-span {
   color: #fff;
@@ -56,13 +63,14 @@ nav > a {
 
 
 .hero-phone {
-  max-width: 300px;
+  width: 70%;
+  margin: 0 0 0 80px;
 }
 .hero-phone > .telefonas {
   width: 90%;
   float: right;
+  
 }
-
 
 
 /* ACHIEVEMENTS */
