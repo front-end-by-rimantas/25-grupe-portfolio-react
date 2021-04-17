@@ -1,13 +1,13 @@
 class Faq {
-    constructor (selector, data){
+    constructor(selector, data) {
         this.selector = selector;
         this.data = data;
-        
+
         this.DOM = null;
         this.init();
     }
 
-    init(){
+    init() {
         if (!this.isValidSelector) {
             console.error('ERROR: pateiktas selektorius nevalidus');
             return false;
@@ -25,17 +25,33 @@ class Faq {
         }
         this.DOM.classList.add('faqSection');
 
-        this.render ();
+        this.render();
     }
 
-    isValidSelector () {
+    isValidSelector() {
+        if (typeof this.selector !== 'string' || this.selector === '') {
+            console.warn('ERROR duotas selektorius turi buti teksto tipo');
+            return false;
+        }
         return true;
     }
-    isValidData () {
+    isValidData() {
+        if (typeof this.data !== 'object' || Array.isArray(this.data)) {
+            console.warn('ERROR duomenys turi buti objekto tipo');
+            return false;
+        }
+        if (this.data.list === undefined || Array.isArray(this.data.list)) {
+            console.warn("ERROR duomenyse esantis list turi buti array tipo");
+            return false;
+        }
+        if (this.data.list.length === 0) {
+            console.warn('ERROR duomenyse esantis list turi buti ne tuscias');
+            return false;
+        }
         return true;
     }
-    render(){
-    // col-12 col-md-6
+    render() {
+        // col-12 col-md-6
         let itemSection = '';
         for (const item of this.data.list) {
             itemSection += `<div class="faqItem ">
