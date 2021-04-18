@@ -38,6 +38,7 @@ nav > a {
   background: linear-gradient( -50deg, var(--colour-violet), var(--colour-blue)) ;
   opacity: 0.5;
 }
+
 .hero-page {
   margin: 150px 20px 250px 90px ;
 }
