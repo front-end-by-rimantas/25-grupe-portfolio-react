@@ -248,4 +248,20 @@ div.col-12.col-lg-6.right {
 /* AVAILABLE START */
 /* SUBSCRIBE */
 /* STAY STAR */
+.stay .title {
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+.stay .title::after {
+  position: absolute;
+  content: " ";
+  width: 70px;
+  height: 2px;
+  background-color: var(--colour-violet);
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+}
 /* FOOTER */
