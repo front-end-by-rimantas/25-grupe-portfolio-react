@@ -78,89 +78,90 @@ nav > a {
 }
 /* COMMUNICATION */
 .container communication  {
-    display: inline-block;
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-  }
-div.col-12.col-lg-6.right {
-  float: right;
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
 }
-   
+div.col-12.col-lg-6.right {
+float: right;
+}
+ 
 
 .width100{
-    width: 100%;
-    padding-top: 0px;
-    padding-left: 15px;
-    
-    
-  }
-  .right{
-    float: right;
-  }
-  p > i .fa-check{
-    padding: 0;
+  width: 100%;
+  padding-top: 0px;
+  padding-left: 15px;
+  
+  
+}
+.right{
+  float: right;
+}
+p > i .fa-check{
+  padding: 0;
+ 
+ 
+}
+.textCommunication {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  position: relative;
+  padding: 15px 15px 15px 0;
+  
+}
+
+.text-1 {
+   display: flex; 
+   gap: 1px;
+   padding-bottom: 2px;
+   padding-top: 5px;
    
-   
-  }
-  .textCommunication {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 24px;
-    position: relative;
-    padding: 15px 15px 15px 0;
-    
-  }
+}
+.subtitle {
+  display: block;
+  justify-content:space-between;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: left;
+  color: #222;
+  list-style: none;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  
+}
+.textrow {
+  display: flex;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
 
-  .text-1 {
-     display: flex; 
-     gap: 1px;
-     padding-bottom: 2px;
-     padding-top: 5px;
-     
-  }
-  .subtitle {
-    display: block;
-    justify-content:space-between;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 52px;
-    text-align: left;
-    color: #222;
-    list-style: none;
-    padding-bottom: 25px;
-    padding-left: 15px;
-    
-  }
-  .textrow {
-    display: flex;
-    padding-bottom: 25px;
-    padding-left: 15px;
-  }
+ .communication .fa {
+  display: inline-block;
+  font-size: 15px;
+  color: #7c4fe0;
+  background-color: #fff;
+  border: 1px solid #cccc;
+  padding: 15px;
+  border-radius: 3px;
 
-   .communication .fa {
-    display: inline-block;
-    font-size: 25px;
-    color: #7c4fe0;
-    background-color: #fff;
-    border: 1px solid #cccc;
-    padding: 15px;
-    border-radius: 3px;
+}
+.icon-1 {
+  display: flex;
+  gap: 15px;
+  
+}
+.communication .fa-check {
+  display: inline-block;
+  border: none;
+  
+}
 
-  }
-  .icon-1 {
-    display: flex;
-    gap: 15px;
-    
-  }
- .communication .fa-check {
-    display: inline-block;
-    border: none;
-    font-style: italic;
- }
 
 /* sAps WORKS */
 .app-works {
@@ -244,25 +245,7 @@ div.col-12.col-lg-6.right {
 /* ITERFACE START */
 /* OUR REVIEW */
 /* PRICE LIST */
-.pricelist {
-  
-  text-align: center;
-}
-.pricelist-center .title-unlock {
-  display: inline-block;
-  text-align: center;
-  margin-bottom: 15px;
-}
-h2.title-unlock ::after{
-  position: absolute;
-  content: " ";
-  width: 70px;
-  height: 2px;
-  background-color: var(--colour-violet);
-  bottom: -15px;
-  left: 50%;
-  transform: translate(-50%);
-}
+
 /* FAQ */
 /* TEAM EXPERTS */
 /* AVAILABLE START */
