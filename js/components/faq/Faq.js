@@ -52,19 +52,29 @@ class Faq {
     }
     render() {
         // col-12 col-md-6
-        let itemSection = '';
-        for (const item of this.data.list) {
-            itemSection += `<div class="faqItem ">
+        let itemSection1 = '';
+        for (const item of this.data.list1) {
+            itemSection1 += `<div class="faqItem ">
             <p class="faq">${item.title}</p>
             <p class="text-grey"> ${item.text}</p>
             </div>`;
         }
-
+        let itemSection2 = '';
+        for (const item of this.data.list2) {
+            itemSection2 += `<div class="faqItem ">
+            <p class="faq">${item.title}</p>
+            <p class="text-grey"> ${item.text}</p>
+            </div>`;
+        }
         const HTML = `<div class="row">
         <h2 class="title col-12 col-lg-6 ml-lg-3 col-xl-8 ml-xl-2">${this.data.mainTitle}</h2>
         <p class="faqSubtitle text-grey center col-12 col-md-10 ml-md-1 col-lg-8 ml-lg-2 hidden-sm">${this.data.text1}</p>
         <p class="faqSubtitle text-grey center col-12 col-md-10 ml-md-1 col-lg-8 ml-lg-2 hidden visible-sm">${this.data.text2}</p></div>
-        <div class="row faqList">${itemSection}
+        <div class="faqList">
+        <div class="row  leftPart">${itemSection1}
+        </div>
+        <div class="row rightPart">${itemSection2}
+        </div>
         </div>
         <div class="row">
         <p class="center col-12 faqBottomLine">${this.data.bottomLine}<a href="${this.data.href}">${this.data.linkText}</a></div>
