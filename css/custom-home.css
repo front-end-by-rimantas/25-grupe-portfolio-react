@@ -89,14 +89,66 @@ nav > a {
   
 } */
 .shape {
-position: absolute;
+  position: absolute;
   width: 100%;
   left: 0;
   right: 0;
   bottom: 0;
-  top: 60%;
   z-index: 0;
 }
+
+@media (min-width: 575px) {
+  .hero-page .subtitle {
+    font-size: 30px;
+  }
+}
+@media (min-width: 767px) {
+  .hero-page .subtitle {
+    font-size: 35px;
+  }
+}
+@media (min-width: 991px) {
+  .hero-page .subtitle {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1199px) {
+  .hero-page .subtitle {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1399px) {
+  .hero-page .subtitle {
+    font-size: 50px;
+  }
+}
+/* */
+@media (min-width: 575px) {
+  .shape  {
+    top: 93%;
+  }
+}
+@media (min-width: 767px) {
+  .shape  {
+    top: 89%;
+  }
+}
+@media (min-width: 991px) {
+  .shape  {
+    top: 72%;
+  }
+}
+@media (min-width: 1199px) {
+  .shape  {
+    top: 65%;
+  }
+}
+@media (min-width: 1399px) {
+  .shape  {
+    top: 60%;
+  }
+}
+
 
 
 /* ACHIEVEMENTS */
