@@ -38,7 +38,6 @@
 .price-item > .pricelist-img {
     position: relative;
     max-width: 100%;
-    outline: 1px solid;
     min-height: 64px;
     max-height: 80px;
 
@@ -47,20 +46,80 @@
 
 
 }
- .price-text {
-    display: grid;
-      
-    grid-row-gap: 10px;
+.price-cost {
+    display: block;
+    padding-top: 10px;
+    box-sizing: border-box;
 
-    padding: 1px;
+
+    
+}
+.priceTitle {
+    font-size: 30px;
+    line-height: 25px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #dfdede;
+    padding-bottom: 15px;
+    
+}
+.priceDouble {
+   font-size: 20px;
+  
+   padding-bottom: -5px;
+   
+}
+.price-text {
+    display: inline-block;
+    width: 100%;
+}
+.price-textSpace {
+     display: block;
+     box-sizing: border-box;
+     line-height: 25px;
+     border-left: none;
+     border-right: none;
+     
+     border-bottom: 1px solid #dfdede;
+     
+     padding-top: 15px;
+     padding-bottom: 15px;
 }
 
-.form-price-text {
+
+.button-price {
+   display: inline-block;
+   border: none;
+   margin-top: 30px;
 
 }
+.button-price >a {
+    float: left;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.plan-title {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.plan-title > h3 {
+    letter-spacing: 3px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5px;
+  }
 
 @media (min-width: 576px){
-.price-item:last-child {
+.price-item {
+    padding-left: 50px;
+    padding-right: 50px;
 
 
    
