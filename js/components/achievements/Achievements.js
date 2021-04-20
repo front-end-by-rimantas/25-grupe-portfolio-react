@@ -17,6 +17,16 @@ class Achievements {
             console.error('ERROR: nevalidus duomenys');
             return false;
         }
+
+        const DOM = document.querySelector(this.selector);
+        if (!DOM) {
+            console.error("EROOR: nepavyko rasti elemento pagal nurodyta selektoriu");
+            return false;
+        }
+        this.DOM = DOM;
+
+        this.render();
+        this.addEvents();
     }
     isValidSelector(){
         if (typeof this.selector !== 'string') {
@@ -43,6 +53,63 @@ class Achievements {
             return false;
         }
         return true;
+    }
+    render() {
+        const rowDOM = this.DOM.querySelector('.row');
+        this.rowDOM = rowDOM;
+        let HTML = '';
+
+        for (const item of this.data.list) {
+            HTML += `<div class="achievements-item ">
+                <div >
+                    <div class="rising-number">0</div>
+                    <p> ${item.title}</p>
+                    </div>
+                <p class="center">${item.subtitle}</p>
+            </div>`;
+        }
+        rowDOM.innerHTML = HTML;
+    }
+    addEvents() {
+        addEventListener('scroll', () => {
+            const allNumbersDOM = this.rowDOM.querySelectorAll('.rising-number');
+
+            for (let i = 0; i < allNumbersDOM.length; i++) {
+                const numberDOM = allNumbersDOM[i];
+                const elementTop = numberDOM.offsetTop;
+                const elementHeight = numberDOM.clientHeight;
+
+                const isVisible = scrollY + innerHeight>=elementTop + elementHeight;
+                if (isVisible) {
+                    this.animateNumber(numberDOM, i);
+                }
+            }
+        })
+    }
+    animateNumber (elementDOM, elementIndex) {
+        if (this.data.list[elementIndex].animated !== true) {
+            const targetNumber = this.data.list[elementIndex].value;
+            this.data.list[elementIndex].animated = true;
+
+            const timeToAnimate = 3000;
+            const fps = 30;
+            const framesCount = timeToAnimate * fps / 1000;
+            const numberIncrement = targetNumber / framesCount;
+            let currentFrameIndex = 0;
+            let printedValue = 0;
+
+            const timer = setInterval(()=> {
+                printedValue += numberIncrement;
+                currentFrameIndex++;
+                elementDOM.innerText = Math.round(printedValue);
+                
+                if (currentFrameIndex === framesCount) {
+                    clearInterval(timer);
+                }
+            }, 1000 / fps)
+
+        }
+
     }
 }
 export { Achievements }

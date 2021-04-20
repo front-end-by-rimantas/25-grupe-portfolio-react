@@ -1,0 +1,19 @@
+.achievements > .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.achievements {
+  font-weight: 600;
+  text-align: center;
+}
+.rising-number {
+  font-size: 40px;
+  color: var(--colour-violet);
+  font-weight: 600;
+  border-right: 1px solid grey;
+}
+@media (min-width: 575px) {
+  .achievements > .row {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

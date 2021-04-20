@@ -16,7 +16,7 @@ const achievementsData = {
             subtitle: 'Customer',
         },
          {
-            title: 'k',
+            title: 'K',
             value: 12,
             subtitle: 'Developer',
         },
