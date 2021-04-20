@@ -2,18 +2,65 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.achievements-item {
+  position: relative;
+}
+.achievements-item:first-child::after {
+  content: '';
+  width: 1px;
+  height: 45px;
+  background-color: #5553;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.achievements-item:nth-child(2)::after {
+   content: '';
+  width: 1px;
+  height: 45px;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.achievements-item:nth-child(3)::after {
+content: '';
+  width: 1px;
+  height: 45px;
+  background-color: #5553;
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.number-line {
+  justify-self: stretch;
+  font-size: 35px;
+  color: var(--colour-blue);
+  font-weight:700;
+  padding: 0;
+  margin: 0;
+}
 .achievements {
   font-weight: 600;
   text-align: center;
 }
 .rising-number {
-  font-size: 40px;
-  color: var(--colour-violet);
-  font-weight: 600;
-  border-right: 1px solid grey;
+  display: inline-block;
+  margin-right: -10px;
 }
 @media (min-width: 575px) {
   .achievements > .row {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .achievements-item:first-child::after {
+    background-color: #5553;
+  }
+  .achievements-item:nth-child(2)::after {
+    background-color: #5553;
+  }
+}
+@media (min-width: 991px) {
+  .number-line {
+    font-size: 40px;
   }
 }

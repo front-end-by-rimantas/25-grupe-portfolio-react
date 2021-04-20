@@ -1,13 +1,13 @@
 class Achievements {
-    constructor (selector, data){
+    constructor(selector, data) {
         this.selector = selector;
         this.data = data;
-        
+
         this.DOM = null;
 
         this.init();
     }
-    init (){
+    init() {
         if (!this.isValidSelector()) {
             console.error('ERROR: nevalidus selektorius');
             return false;
@@ -28,7 +28,7 @@ class Achievements {
         this.render();
         this.addEvents();
     }
-    isValidSelector(){
+    isValidSelector() {
         if (typeof this.selector !== 'string') {
             console.warn('ERROR: selektorius turi buti tekstas');
             return false;
@@ -39,7 +39,7 @@ class Achievements {
         }
         return true;
     }
-    isValidData(){
+    isValidData() {
         if (typeof this.data !== 'object' || Array.isArray(this.data)) {
             console.warn('ERROR: duomenys turi buti objekto tipo');
             return false;
@@ -61,9 +61,9 @@ class Achievements {
 
         for (const item of this.data.list) {
             HTML += `<div class="achievements-item ">
-                <div >
-                    <div class="rising-number">0</div>
-                    <p> ${item.title}</p>
+                <div class="number-line">
+                    <span class="rising-number">0</span>
+                    <span> ${item.title}</span>
                     </div>
                 <p class="center">${item.subtitle}</p>
             </div>`;
@@ -79,30 +79,30 @@ class Achievements {
                 const elementTop = numberDOM.offsetTop;
                 const elementHeight = numberDOM.clientHeight;
 
-                const isVisible = scrollY + innerHeight>=elementTop + elementHeight;
+                const isVisible = scrollY + innerHeight >= elementTop + elementHeight;
                 if (isVisible) {
                     this.animateNumber(numberDOM, i);
                 }
             }
         })
     }
-    animateNumber (elementDOM, elementIndex) {
+    animateNumber(elementDOM, elementIndex) {
         if (this.data.list[elementIndex].animated !== true) {
             const targetNumber = this.data.list[elementIndex].value;
             this.data.list[elementIndex].animated = true;
 
-            const timeToAnimate = 3000;
+            const timeToAnimate = 1500;
             const fps = 30;
             const framesCount = timeToAnimate * fps / 1000;
             const numberIncrement = targetNumber / framesCount;
             let currentFrameIndex = 0;
             let printedValue = 0;
 
-            const timer = setInterval(()=> {
+            const timer = setInterval(() => {
                 printedValue += numberIncrement;
                 currentFrameIndex++;
                 elementDOM.innerText = Math.round(printedValue);
-                
+
                 if (currentFrameIndex === framesCount) {
                     clearInterval(timer);
                 }
