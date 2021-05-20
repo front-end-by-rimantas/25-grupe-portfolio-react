@@ -264,4 +264,16 @@ div.col-12.col-lg-6.right {
   left: 50%;
   transform: translate(-50%);
 }
+
+.item-1 > .fa {
+  display: inline-block;
+  width: 55px;
+  font-size: 25px;
+  color: #f2ebff;
+  background-color: #fff;
+  border: 1px solid #0002;
+  padding: 15px 15px;
+  border-radius: 3px;
+  box-shadow: 0 2px 3px #0001;
+}
 /* FOOTER */

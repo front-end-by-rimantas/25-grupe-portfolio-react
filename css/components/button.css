@@ -16,3 +16,11 @@
 .btn.btn-violet {
   background: var(--colour-violet-light);
 }
+.btn.btn-icon {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  color: #fff;
+
+}
