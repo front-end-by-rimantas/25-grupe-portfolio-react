@@ -33,6 +33,126 @@ nav > a {
 }
 
 /* HERO */
+.bg-img-hero {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position:center;
+  z-index: -3;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+.bg-img-color {
+  background-image: linear-gradient(-50deg, #8731e899, #4528dc);
+  position: relative;
+  /* padding-bottom: 50px; */
+}
+/* .hero-page {
+  margin: 150px 20px 250px 90px ;
+} */
+.hero-page > .text-wht {
+  color: #fff;
+  float: left;
+}
+.hero-page > .paragraph {
+  margin: 25px 0 0 0;
+}
+.white-icon {
+  width: 28%;
+  margin: 25px 0 0 0;
+}
+.hero-page > .subtitle {
+  text-transform: none;
+  padding: 0 0 25px 0;
+  font-size: 4em;
+}
+.hero-span {
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+
+.hero-phone {
+  position: relative;
+  width: 70%;
+  margin: 0 0 0 80px;
+  z-index: 3;
+}
+/* .hero-phone > .telefonas {
+  
+  width: 90%;
+  float: right;
+  
+} */
+.shape {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  z-index: 0;
+}
+
+@media (min-width: 575px) {
+  .hero-page .subtitle {
+    font-size: 30px;
+  }
+}
+@media (min-width: 767px) {
+  .hero-page .subtitle {
+    font-size: 35px;
+  }
+}
+@media (min-width: 991px) {
+  .hero-page .subtitle {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1199px) {
+  .hero-page .subtitle {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1399px) {
+  .hero-page .subtitle {
+    font-size: 50px;
+  }
+}
+/* */
+@media (min-width: 575px) {
+  .shape  {
+    top: 93%;
+  }
+}
+@media (min-width: 767px) {
+  .shape  {
+    top: 89%;
+  }
+}
+@media (min-width: 991px) {
+  .shape  {
+    top: 72%;
+  }
+}
+@media (min-width: 1199px) {
+  .shape  {
+    top: 65%;
+  }
+}
+@media (min-width: 1399px) {
+  .shape  {
+    top: 60%;
+  }
+}
+
+
+
 /* ACHIEVEMENTS */
 /* SERVICES */
 
@@ -63,8 +183,8 @@ nav > a {
     border-radius: 3px;
     box-shadow: 0 2px 3px #0001;
 }
-.grid-container > .telefonas {
-    width: 80%;
+.telefonas {
+    width: 90%;
     float: right;
 }
 /* COMMUNICATION */
