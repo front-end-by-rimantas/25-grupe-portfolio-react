@@ -1,0 +1,65 @@
+.faqSection .title {
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.faqSection > .faqList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px 30px;
+  
+  padding: 0px 5px 20px;
+}
+
+.faqSection > .row > .title::after {
+  position: absolute;
+  content: " ";
+  width: 70px;
+  height: 2px;
+  background-color: var(--colour-violet);
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.faqSection .faqSubtitle {
+  margin-bottom: 40px;
+}
+.faqList .faqItem > p {
+  text-align: left;
+}
+.faqBottomLine {
+  font-size: 14px;
+  font-weight: 500;
+}
+.faqBottomLine > a {
+  margin-left: 5px;
+  color: black;
+  font-weight: 500;
+}
+@media (min-width: 575px) {
+  .faqSection .title {
+    font-size: 30px;
+  }
+  .faqSection > .faqList {
+    padding: 20px 70px 20px;
+  }
+}
+@media (min-width: 767px) {
+  .faqSection .faqList {
+    grid-template-columns: 1fr 1fr;
+    /* padding: 50px 70px 20px; */
+  }
+  .faqSection .title {
+    font-size: 35px;
+  }
+}
+@media (min-width: 991px) {
+  .faqSection .title {
+    font-size: 40px;
+  }
+  .faqSection > .faqList {
+    padding: 50px 70px 20px;
+  }
+}

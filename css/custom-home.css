@@ -6,7 +6,9 @@
 /* 3rd party */
 @import "./3rd-party/font-awesome.min.css";
 /* components */
+@import "./components/achievements.css";
 @import "./components/button.css";
+@import "./components/faq.css";
 @import "./components/footer.css";
 @import "./components/header.css";
 @import "./components/services.css";
@@ -152,16 +154,6 @@ nav > a {
 
 
 /* ACHIEVEMENTS */
-.achievements {
-  font-weight: 600;
-  text-align: center;
-}
-.rising-number {
-  font-size: 40px;
-  color: var(--colour-violet);
-  font-weight: 600;
-  border-right: 1px solid grey;
-}
 /* SERVICES */
 
 /* DEVICE MANAGER */
